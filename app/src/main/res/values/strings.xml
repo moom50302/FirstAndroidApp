@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FirstAndroidApp</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="loginPage_title">Login Page</string>
+    <string name="loginPage_account">帳號:</string>
+    <string name="loginPage_password">密碼:</string>
+    <string name="loginPage_submit">登入</string>
+
+    <string name="indexPage_title">Index Page</string>
+    <string name="indexPage_account">登入的帳號:</string>
+    <string name="indexPage_password">登入的密碼:</string>
+    <string name="indexPage_return">返回登入頁</string>
+
+</resources>
