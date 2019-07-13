@@ -21,11 +21,11 @@ And don't forget setting a primary id for each elements then Control file can ea
   If you want to get element from View. You need to build a variable for this element and connect it just like JavaScript.
   For Example:
   I want to get EditText Value(most is a string).
-  
+  <pre>
   EditText editText;
   editText = findViewById(R.id.elementID);
   String getString = editText.getText().toString();
-  
+  </pre>
   You can create a lot of EventListener here for this View.(Lambda expression would be helpful).
   
 5. We got basic View And Control File, also you can build module file for yourself.
