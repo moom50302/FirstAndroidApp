@@ -6,6 +6,7 @@
     <string name="loginPage_account">帳號:</string>
     <string name="loginPage_password">密碼:</string>
     <string name="loginPage_submit">登入</string>
+    <string name="loginPage_submit2">掃描頁面</string>
 
     <string name="indexPage_title">Index Page</string>
     <string name="indexPage_account">登入的帳號:</string>

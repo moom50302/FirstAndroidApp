@@ -18,7 +18,7 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
 
     EditText editText,editText2;
-    Button btn;
+    Button btn,btn2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,6 +72,12 @@ public class MainActivity extends AppCompatActivity {
             i.putExtra("account", account);
             i.putExtra("password", password);
             startActivity(i);
+        });
+
+        btn2 = findViewById(R.id.button_submit2);
+        btn2.setOnClickListener(View -> {
+            Intent intent = new Intent(this,ScanActivity.class);
+            startActivity(intent);
         });
     }
 }
